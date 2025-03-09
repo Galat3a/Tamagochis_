@@ -183,5 +183,5 @@ Los pasos que quedan por implementar en el juego son los siguientes:
 4. Implementar lógica de escondite
 5. Refactorizar para Angular
 
-No he podido avanzar mas debido a que tengo porblemas con representar los jugadores en el tablero una vez se conectan, he intentdo hacerlo proporcionandole a este una vez que se conectase el type, para que asi ya tuviera la posicion y el type que se indica en el servidor, en GameService.ts pero no he podido hacerlo, tambien he tenido que quitar la parte de los "vecinos" para la creacion de los arbustos ya que me daba un error de un bucle infinito que no he podido solucionar, por lo que los arbustos puedne salir juntos uno al lado del otro. 
+No he podido avanzar mas debido a que tengo porblemas con representar los jugadores en el tablero una vez se conectan, he intentdo hacerlo proporcionandole a este jugador conectado el tipo y la posicion que se indica en el servidor, en BoardBuild.ts pero no he podido hacerlo, me daban errores que no he sabido solucionar, tambien he tenido que quitar la parte de los "vecinos" para la creacion de los arbustos ya que me daba un error de un bucle infinito que no he podido solucionar, por lo que los arbustos puedne salir juntos uno al lado del otro. 
 
